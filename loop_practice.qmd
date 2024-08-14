@@ -164,6 +164,7 @@ for (i in seq_along(species)) {
 } else if (species[i] == "goat") {
   animal_age <- age_human[i] * 4.7
 }
+}
 print(animal_age)
 ```
 
